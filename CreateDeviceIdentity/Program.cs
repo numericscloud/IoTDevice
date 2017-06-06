@@ -12,6 +12,7 @@ namespace CreateDeviceIdentity
     {
         static RegistryManager registryManager;
         static string connectionString = "ConnStr";
+
             static void Main(string[] args)
         {
             registryManager = RegistryManager.CreateFromConnectionString(connectionString);
