@@ -12,8 +12,8 @@ namespace SimulatedDevice
     class Program
     {
         static DeviceClient deviceClient;
-        static string iotHubUri = "PoCIoTSession.azure-devices.net";
-        static string deviceKey = "yDUwBYe2My3oIJOpysy0Te8pHYrHQm0z5wwG8K+39fM=";
+        static string iotHubUri = "IoT.azure-devices.net";
+        static string deviceKey = "enterdevicekey";
         static void Main(string[] args)
         {
             Console.WriteLine("Simulated device\n");

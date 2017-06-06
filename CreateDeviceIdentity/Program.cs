@@ -11,8 +11,8 @@ namespace CreateDeviceIdentity
     class Program
     {
         static RegistryManager registryManager;
-        static string connectionString = "HostName=PoCIoTSession.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=5e46IfNoJbXPceWj11M8uMASqgsO6LeRA0GQZhnNVFE=";
-        static void Main(string[] args)
+        static string connectionString = "ConnStr";
+            static void Main(string[] args)
         {
             registryManager = RegistryManager.CreateFromConnectionString(connectionString);
             AddDeviceAsync().Wait();
